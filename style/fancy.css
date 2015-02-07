@@ -14,9 +14,16 @@
 
 .jumbotron h1 {
   color: #fff;
+  font-size: 100px;  
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+}
+
+.container-fluid h1{
   font-size: 48px;  
   font-family: 'Bree Serif', serif;
   font-weight: bold;
+
 }
 
 .jumbotron p {
@@ -24,40 +31,71 @@
   color: #fff;
 }
 
-.nav .container {
 
-	background-color:"#CCE680";
+
+.center {
+	position: relative;
+	margin: 0 auto;
+	width: 30%;
+	min-width: 550px;
+
 }
+
+
+
+
+
+
 
 .nav a {
   color: #5a5a5a;
   font-size: 20px;
   padding: 14px 10px;
   font-family: 'Bree Serif', serif;
+  text-decoration: none;
 }
 
 .nav li {
   display: inline;
+
 }
 
 
 
 #me {
-	background: #F7922D;
-	color: #FFF;
+	background: #FF8533;
 }
 
 #projects {
-	background-color: #f0dd71;
-	color: #FFF;
+	background-color:#99D6AD;
 }
 
 #gallery {
-	background-color: #3ca385;
-	color: #FFFFFF;
+	background-color:#94B84D;
 }
 
 #contact {
-	background-color: #292929;
-	color: #FFFFFF;
+	background-color: #4C4C33;
+	color: #FFF;
+}
+
+.projectbox {
+  text-decoration: none;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+}
+
+.contactbox {
+  text-decoration: none;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+}
+
+.trailer{
+
+	background-color: #4C4C33;
+	color: #7A7A52;
+	font-size: 10px;
+
+
 }
