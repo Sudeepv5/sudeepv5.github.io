@@ -1,0 +1,63 @@
+
+
+.jumbotron {
+  background-image:url('http://goo.gl/04j7Nn');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.nav .container {
+
+	background-color:"#CCE680";
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 20px;
+  padding: 14px 10px;
+  font-family: 'Bree Serif', serif;
+}
+
+.nav li {
+  display: inline;
+}
+
+
+
+#me {
+	background: #F7922D;
+	color: #FFF;
+}
+
+#projects {
+	background-color: #f0dd71;
+	color: #FFF;
+}
+
+#gallery {
+	background-color: #3ca385;
+	color: #FFFFFF;
+}
+
+#contact {
+	background-color: #292929;
+	color: #FFFFFF;
+}
