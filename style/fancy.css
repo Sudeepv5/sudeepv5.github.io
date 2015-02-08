@@ -9,20 +9,28 @@
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top:10px;
+  left:600px;
 }
 
 .jumbotron h1 {
-  color: #fff;
+  color: #FF8533;
   font-size: 100px;  
   font-family: 'Bree Serif', serif;
   font-weight: bold;
 }
 
 .container-fluid h1{
-  font-size: 48px;  
+  font-size: 60px;  
   font-family: 'Bree Serif', serif;
   font-weight: bold;
+
+}
+
+.container-fluid p{
+  font-size: 16px;  
+  font-family: 'Bree Serif', serif;
+
 
 }
 
@@ -31,19 +39,19 @@
   color: #fff;
 }
 
-
+.container-fluid h3
+{
+font-family: 'Bree Serif', serif;
+}
 
 .center {
 	position: relative;
 	margin: 0 auto;
 	width: 30%;
 	min-width: 550px;
+	padding-bottom: 20px;
 
 }
-
-
-
-
 
 
 
@@ -79,17 +87,7 @@
 	color: #FFF;
 }
 
-.projectbox {
-  text-decoration: none;
-  font-family: 'Bree Serif', serif;
-  font-size: 20px;
-}
 
-.contactbox {
-  text-decoration: none;
-  font-family: 'Bree Serif', serif;
-  font-size: 20px;
-}
 
 .trailer{
 
