@@ -10,7 +10,7 @@
 .jumbotron .container {
   position: relative;
   top:10px;
-  left:600px;
+  
 }
 
 .jumbotron h1 {
@@ -71,7 +71,7 @@ font-family: 'Bree Serif', serif;
 
 
 #me {
-	background: #FF8533;
+	background:  #FFA366;
 }
 
 #projects {
@@ -83,7 +83,7 @@ font-family: 'Bree Serif', serif;
 }
 
 #contact {
-	background-color: #4C4C33;
+	background-color:  #1F0F00;
 	color: #FFF;
 }
 
@@ -101,7 +101,7 @@ font-family: 'Bree Serif', serif;
 
 .trailer{
 
-	background-color: #4C4C33;
+	background-color:  #1F0F00;
 	color: #7A7A52;
 	font-size: 10px;
 
