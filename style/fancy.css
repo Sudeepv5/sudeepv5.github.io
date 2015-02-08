@@ -87,7 +87,17 @@ font-family: 'Bree Serif', serif;
 	color: #FFF;
 }
 
+.projectbox {
+  text-decoration: none;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+}
 
+.contactbox {
+  text-decoration: none;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+}
 
 .trailer{
 
