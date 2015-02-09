@@ -1,13 +1,17 @@
 
 
 .jumbotron {
-  background-image: url("clocks.jpg");
+  background-image: url('clocks.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .jumbotron .container {
+  background-image: url('clocks.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   top:10px;
   
