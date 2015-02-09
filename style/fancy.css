@@ -53,6 +53,23 @@ font-family: 'Bree Serif', serif;
 
 }
 
+.row
+{
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+}
+
+.row a{
+
+  color: #00A3CC;
+  font-size: 20px;
+  padding: 14px 10px;
+  font-family: 'Bree Serif', serif;
+  text-decoration: none;
+}
+
+
 
 
 .nav a {
