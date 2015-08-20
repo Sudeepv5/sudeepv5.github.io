@@ -1,19 +1,19 @@
 .fancy-font
 {
-    font-family: 'Bree Serif', serif;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 .jumbotron {
-  height: 500px;
+  height: 620px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 0px;
 }
 
 
 .container-fluid h1{
   font-size: 60px;  
   font-weight: bold;
-
 }
 
 .container-fluid p
@@ -34,7 +34,8 @@
 
 .row
 {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .row a
@@ -53,22 +54,47 @@
     color: white !important;
 }
 
+.center
+{
+	margin: 0 auto;
+	width: 30%;
+	min-width: 550px;
+}
 
 a
 {
    text-decoration: none !important;
 }
 
+#nav-bar
+{
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
 
 #nav-bar a {
   color: #5a5a5a;
   font-size: 20px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-#nav-bar li {
-  display: inline;
+
+#nav-bar.sticker 
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: #FFF;
+    opacity:0.8;
 }
+
+#nav-bar.sticker a.high 
+{
+    color: #FFDB4D;
+}
+
 
 
 #me {
