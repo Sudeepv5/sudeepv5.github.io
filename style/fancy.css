@@ -2,15 +2,15 @@
 {
     font-family: 'Alegreya Sans', sans-serif;
 }
-
+/*------Top Banner--------*/
 .jumbotron {
-  height: 620px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0px;
 }
 
-
+/*------Container--------*/
 .container-fluid h1{
   font-size: 60px;  
   font-weight: bold;
@@ -27,6 +27,7 @@
     font-weight: bold;
 }
 
+/*------MISC--------*/
 .rocket 
 {
  font-size:150px;
@@ -60,25 +61,31 @@
 	width: 30%;
 	min-width: 550px;
 }
-
 a
 {
    text-decoration: none !important;
 }
-
+/*------Navigation bar--------*/
 #nav-bar
 {
-  padding-bottom: 10px !important;
-  padding-top: 10px !important;
+  padding: 10px !important;
+  text-align: center;
 }
 
 #nav-bar a {
   color: #5a5a5a;
   font-size: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
+#nav-bar li
+{
+    display:inline;
+    padding:20px !important;
+}
+
+#nav-bar a:hover {
+	color: #FF9900;
+}
 
 #nav-bar.sticker 
 {
@@ -92,11 +99,10 @@ a
 
 #nav-bar.sticker a.high 
 {
-    color: #FFDB4D;
+    color: #FF9900;
 }
 
-
-
+/*------Icons--------*/
 #me {
     background:  #FFA366;
 }
@@ -114,11 +120,17 @@ a
     color: #FFF;
 }
 
-
+/*-------Trailer--------*/
 #trailer{
     background-color:  #352719;
     color: #D2CFCC;
     font-size: 10px;
-    padding-top: 20px;
-    padding-right: 30px;
+    padding: 20px;
+}
+
+#trailer{
+    background-color:  #352719;
+    color: #D2CFCC;
+    font-size: 12px;
+    padding: 20px;
 }

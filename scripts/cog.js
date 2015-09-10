@@ -3,60 +3,56 @@ $(document).ready(function(){
     
  $(document).on({
     mouseenter: function() {
-        $("#mein").html("me");
-        $("#mein").addClass("high");
+        //$("#mein").addClass("high");
     },
     mouseleave: function() {
-        $("#mein").html("<i class='fa fa-user'></i>");
-        $("#mein").removeClass("high");
+        //$("#mein").removeClass("high");
     },
-    click: function() {
+    click: function(event) {
         $('html, body').animate({scrollTop: $("#me").offset().top}, 600);
+        event.preventDefault();
     }
 }, "#mein"); 
     
     
  $(document).on({
     mouseenter: function() {
-        $("#projectus").html("projects");
-        $("#projectus").addClass("high");
+        //$("#projectus").addClass("high");
     },
     mouseleave: function() {
-        $("#projectus").html("<i class='fa fa-cog'></i>");
-        $("#projectus").removeClass("high");
+        //$("#projectus").removeClass("high");
     },
     click: function() {
         $('html, body').animate({scrollTop: $("#projects").offset().top}, 600);
+        event.preventDefault();
     }
 }, "#projectus");
 
     
  $(document).on({
     mouseenter: function() {
-        $("#galleria").html("gallery");
-        $("#galleria").addClass("high");
+        //$("#galleria").addClass("high");
     },
     mouseleave: function() {
-        $("#galleria").html("<i class='fa fa-camera'></i>");
-        $("#galleria").removeClass("high");
+        //$("#galleria").removeClass("high");
     },
     click: function() {
         $('html, body').animate({scrollTop: $("#gallery").offset().top}, 600);
+        event.preventDefault();
     }
 }, "#galleria");
     
 
  $(document).on({
     mouseenter: function() {
-        $("#contacto").html("contact");
-        $("#contacto").addClass("high");
+        //$("#contacto").addClass("high");
     },
     mouseleave: function() {
-        $("#contacto").html("<i class='fa fa-comments'></i>");
-        $("#contacto").removeClass("high");
+        //$("#contacto").removeClass("high");
     },
     click: function() {
        $('html, body').animate({scrollTop: $("#contact").offset().top}, 600);
+        event.preventDefault();
     }
 }, "#contacto");
 
