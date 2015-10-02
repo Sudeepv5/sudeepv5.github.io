@@ -6,7 +6,7 @@
 .jumbotron {
   height: 600px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   margin-bottom: 0px;
 }
 
@@ -116,21 +116,16 @@ a
 }
 
 #contact {
-    background-color:  #1F0F00;
+    background-color:#292929;
     color: #FFF;
 }
 
 /*-------Trailer--------*/
-#trailer{
-    background-color:  #352719;
-    color: #D2CFCC;
-    font-size: 10px;
-    padding: 20px;
-}
 
-#trailer{
-    background-color:  #352719;
+.trailer{
+    background-color:  #1F0F00;
     color: #D2CFCC;
     font-size: 12px;
-    padding: 20px;
+    padding: 12px;
+    text-align: right;
 }
